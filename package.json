@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_realtimechat",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "RealtimeChat"
+  },
+  "author": "Selman Jir CAN",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "momen": "^0.0.1-security",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "keywords": []
+}
